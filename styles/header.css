@@ -1,0 +1,66 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+
+
+    
+}
+
+.left-section {
+    display: flex;
+    margin-left: 138px;
+    
+}
+
+.logo-image {
+    margin-top: 100px;
+    height: 100px;
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 212px;
+    flex-shrink: 0;
+}
+
+.menu-button, .contact-us-button {
+    margin-top: 230px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-size: 15px;
+    margin-right: 50px;
+    font-family: 'Noto Serif JP', serif;
+    white-space: nowrap;
+}
+
+
+.reservation-button {
+    margin-top: 230px;
+    background-color: transparent;
+    border-color: #DBA274;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    margin-right: 200px;
+    font-family: 'Noto Serif JP', serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-image: url(../images/yuen_background/213.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.section2 {
+    background: #DBA274;
+    height: 50vh;
+}
+
+
+
+
+
+
+

@@ -3,19 +3,113 @@
     padding: 0;
 }
 
-.section1 {
-    background-image: url(../images/yuen_background/213.jpg);
+html, body {
+    overflow: hidden;
+}
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    background-image: url(../images/yuen_background/213-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    
+   
+
+
 }
 
-.section2 {
-    background: #DBA274;
-    height: 50vh;
+.main-info {
+    background-image: url(../images/yuen_background/194.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+ 
+    
+    justify-content: center; /* Centers the content horizontally */
+    
 }
 
+
+.main-logo {
+    margin-top: 75px;
+    width: 644px;
+    height: 600px;
+    
+
+    
+}
+
+header {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    flex-shrink: 0;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically center-align the items */
+    justify-content: center; /* Horizontally center-align the items */
+    text-align: center;
+    
+}
+
+
+.side-font {
+    transform: rotate(-90deg);
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+}
+
+
+.sushi-yuen-p {
+    
+    bottom: 50px;
+    margin: 0;
+    left: 0;
+    cursor: pointer;
+    
+}
+
+.reservation-p {
+    
+    top:50px;
+    cursor: pointer;
+
+}
+
+.info-p {
+    top: 140px;
+    cursor: pointer;
+}
+
+.gallery-p {
+    top: 240px;
+    cursor: pointer;
+
+}
+
+.menu-p {
+    top: 340px;
+    cursor: pointer;
+}
+
+.reservation-p:hover, .info-p:hover, .gallery-p:hover, .menu-p:hover, .sushi-yuen-p:hover {
+
+    color: rgba(226, 226, 226, 0.721);
+}
 
 
 

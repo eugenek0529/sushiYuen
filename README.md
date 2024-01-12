@@ -15,7 +15,4 @@ During the design phase, I utilized tool called Figma to orange elements
 <img width="794" alt="image" src="https://github.com/eugenek0529/sushiYuen/assets/111472652/115bdd13-3f10-4a39-9e45-9de6708c459f">
 
 
-Implementation result (implementation will be keep updated)
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
+Implementation result (implementation will be kept updated)
